@@ -1,0 +1,10 @@
+import turtle
+
+my_turtle = turtle.Turtle()
+
+def square_to_circle(length, angle):
+	for i in range(4):
+		my_turtle.forward(length)
+		my_turtle.right(angle)
+
+square_to_circle(100, 90)
